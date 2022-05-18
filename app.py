@@ -2,14 +2,12 @@
 import string
 from sklearn.model_selection import train_test_split
 
-# Import support for Perl like implementations.
-import re
+# Import Streamlit.
+import streamlit as st
+
 
 # Import pandas to read CSV files.
 import pandas as pd
-
-# Import numpy.
-import numpy as np
 
 # Import natural language toolkit.
 import nltk
