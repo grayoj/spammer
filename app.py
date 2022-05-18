@@ -37,7 +37,7 @@ def clean_data(message):
     message_without_punc = ''.join(message_without_punc)
     
     separator = ''
-    return separator.join([word for word in message_without_punc,split() if word.lower() not in stopwords.words('english')])
+    return separator.join([word for word in message_without_punc.split() if word.lower() not in stopwords.words('english')])
 
 df['message'] = df['message'].apply(clean_data)
 x = df['message']
