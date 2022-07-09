@@ -4,7 +4,7 @@ A quite simple application that demonstrates the use of Naive Bayes algorithm fo
 
 ## Requirements
 
-- Python 3
+- Python 3 +
 - Pip (To Install packages)
 - Streamlit 
 - Pandas
@@ -91,4 +91,4 @@ cd spam-detection
 streamlit run app.py
 ```
 
-Done. Should be running on the localhost.
+Done. Should be running on the localhost. MIT License.
